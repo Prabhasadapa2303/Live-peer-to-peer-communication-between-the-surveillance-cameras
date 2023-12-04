@@ -27,4 +27,3 @@ validateLogin = partial(validateLogin, username, password)
 loginButton = Button(tkWindow, text="Login", command=validateLogin).grid(row=4, column=0)  
 
 tkWindow.mainloop()
-
